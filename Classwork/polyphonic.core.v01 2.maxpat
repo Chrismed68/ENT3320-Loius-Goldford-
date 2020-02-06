@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 138.0, 79.0, 945.0, 708.0 ],
+		"rect" : [ 52.0, 79.0, 945.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.699997, 583.0, 61.0, 22.0 ],
+					"patching_rect" : [ 204.0, 568.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 235.0, 602.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "mute 1, 0"
 				}
@@ -69,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.5, 545.0, 60.0, 22.0 ],
+					"patching_rect" : [ 398.0, 568.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "r mute.all"
 				}
@@ -81,7 +82,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.100006, 600.0, 37.0, 22.0 ],
+					"patching_rect" : [ 75.5, 600.0, 37.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -320,9 +321,9 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 45.068092, 0.262047, 0, 185.19574, 0.201575, 0, 319.642578, 0.16126, 0, 356.0, 0.0, 0, 356.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 159.510635, 0.427339, 0, 1678.659546, 0.245921, 0, 2666.106445, 0.360147, 0, 2856.0, 0.0, 0, 2856.0, 0.0, 0 ],
 					"bgcolor" : [ 0.993114, 0.998875, 0.611299, 1.0 ],
-					"domain" : 356.0,
+					"domain" : 2856.0,
 					"gridcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ],
 					"id" : "obj-34",
 					"linecolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
@@ -331,7 +332,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.199997, 413.0, 200.0, 100.0 ],
+					"patching_rect" : [ 126.5, 402.600006, 200.0, 100.0 ],
 					"range" : [ 0.0, 0.503937 ],
 					"style" : ""
 				}
@@ -574,7 +575,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -631,7 +632,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 54.300003, 399.0, 120.0, 399.0, 120.0, 567.0, 303.0, 567.0, 303.0, 564.0, 317.200012, 564.0 ],
 					"source" : [ "obj-37", 2 ]
 				}
 
@@ -713,7 +713,32 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "bach.mc2f.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.playkeys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.expr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.args.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

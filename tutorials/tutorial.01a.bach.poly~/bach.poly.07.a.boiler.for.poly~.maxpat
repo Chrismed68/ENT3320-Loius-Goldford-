@@ -2,14 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x64",
+			"major" : 7,
+			"minor" : 3,
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"classnamespace" : "box",
 		"rect" : [ 107.0, 79.0, 810.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -45,6 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 169.5, 411.0, 67.0, 20.0 ],
+					"style" : "",
 					"text" : "<live.dial>",
 					"textcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ]
 				}
@@ -59,6 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.0, 439.0, 227.0, 33.0 ],
+					"style" : "",
 					"text" : "<= Use send / receive pairs to easily get messages inside of all poly~ voices.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -74,14 +75,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64",
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 332.0, 209.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -117,6 +117,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 13.0, 168.0, 53.0, 22.0 ],
+									"style" : "",
 									"text" : "s to.poly"
 								}
 
@@ -129,6 +130,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 13.0, 137.0, 49.0, 22.0 ],
+									"style" : "",
 									"text" : "note 60"
 								}
 
@@ -141,6 +143,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
 									"patching_rect" : [ 13.0, 101.0, 29.5, 22.0 ],
+									"style" : "",
 									"text" : "t b i"
 								}
 
@@ -153,6 +156,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 13.0, 71.0, 39.0, 22.0 ],
+									"style" : "",
 									"text" : "+ 500"
 								}
 
@@ -165,6 +169,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 13.0, 41.0, 79.0, 22.0 ],
+									"style" : "",
 									"text" : "random 1000"
 								}
 
@@ -177,6 +182,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 78.0, 168.0, 245.0, 20.0 ],
+									"style" : "",
 									"text" : "This simulates the triggering of poly~ voices.",
 									"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 								}
@@ -190,6 +196,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 13.0, 14.0, 126.0, 22.0 ],
+									"style" : "",
 									"text" : "qmetro 700 @active 1"
 								}
 
@@ -314,8 +321,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -329,9 +336,11 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p voice.trigger.simulation"
 				}
 
@@ -344,8 +353,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.666666666666629, 550.824607329842934, 50.0, 62.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+					"patching_rect" : [ 176.666672, 550.824585, 50.0, 62.0 ],
+					"style" : "",
+					"text" : "1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0",
 					"textcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 
@@ -358,17 +368,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 398.0, 383.0, 41.0, 48.0 ],
+					"patching_rect" : [ 398.0, 383.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 320 ],
-							"parameter_shortname" : "sustain",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "sustain",
+							"parameter_shortname" : "sustain",
+							"parameter_type" : 0,
+							"parameter_mmax" : 1500.0,
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_initial" : [ 320 ],
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -385,17 +395,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 340.5, 383.0, 41.0, 48.0 ],
+					"patching_rect" : [ 340.5, 383.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 230 ],
-							"parameter_shortname" : "decay",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "decay",
+							"parameter_shortname" : "decay",
+							"parameter_type" : 0,
+							"parameter_mmax" : 1500.0,
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_initial" : [ 230 ],
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -412,6 +422,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 398.0, 439.0, 56.0, 22.0 ],
+					"style" : "",
 					"text" : "s sustain"
 				}
 
@@ -424,6 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 340.5, 439.0, 50.0, 22.0 ],
+					"style" : "",
 					"text" : "s decay"
 				}
 
@@ -436,17 +448,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 462.5, 383.0, 41.0, 48.0 ],
+					"patching_rect" : [ 462.5, 383.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 950 ],
-							"parameter_shortname" : "release",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "release",
+							"parameter_shortname" : "release",
+							"parameter_type" : 0,
+							"parameter_mmax" : 1500.0,
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_initial" : [ 950 ],
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -463,17 +475,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 282.75, 383.0, 41.0, 48.0 ],
+					"patching_rect" : [ 282.75, 383.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 100 ],
-							"parameter_shortname" : "attack",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "attack",
+							"parameter_shortname" : "attack",
+							"parameter_type" : 0,
+							"parameter_mmax" : 1500.0,
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_initial" : [ 100 ],
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -490,17 +502,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 232.25, 383.0, 41.0, 48.0 ],
+					"patching_rect" : [ 232.25, 383.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 500 ],
-							"parameter_shortname" : "duration",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "duration",
+							"parameter_shortname" : "duration",
+							"parameter_type" : 0,
+							"parameter_mmax" : 1500.0,
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_initial" : [ 500 ],
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -517,6 +529,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.25, 439.0, 35.0, 22.0 ],
+					"style" : "",
 					"text" : "s dur"
 				}
 
@@ -529,6 +542,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 462.5, 439.0, 57.0, 22.0 ],
+					"style" : "",
 					"text" : "s release"
 				}
 
@@ -541,6 +555,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 282.75, 439.0, 50.0, 22.0 ],
+					"style" : "",
 					"text" : "s attack"
 				}
 
@@ -553,6 +568,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.5, 343.0, 43.0, 20.0 ],
+					"style" : "",
 					"text" : "<coll>",
 					"textcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ]
 				}
@@ -566,7 +582,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.5, 334.0, 56.0, 22.0 ],
-					"text" : "1 6500"
+					"style" : "",
+					"text" : "15 1700"
 				}
 
 			}
@@ -579,6 +596,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 169.5, 316.0, 469.0, 47.0 ],
+					"style" : "",
 					"text" : "A method of getting streams of data into a poly~ \nHere, the numbers in the <coll> object are constantly being updated, but they can all be referenced inside the poly~ by including an instance of the same <coll> (see inside)",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -595,14 +613,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64",
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 464.0, 232.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -638,7 +655,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 63.0, 183.5, 30.0, 30.0 ]
+									"patching_rect" : [ 63.0, 183.5, 30.0, 30.0 ],
+									"style" : ""
 								}
 
 							}
@@ -651,6 +669,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 110.0, 147.0, 320.0, 33.0 ],
+									"style" : "",
 									"text" : "This just simulates a stream of numbers constantly updating a collection (i.e. the coll object in the main patch)",
 									"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 								}
@@ -664,6 +683,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "renumber", "" ],
 									"patching_rect" : [ 9.0, 138.5, 73.0, 22.0 ],
+									"style" : "",
 									"text" : "t renumber l"
 								}
 
@@ -676,6 +696,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 9.0, 9.0, 126.0, 22.0 ],
+									"style" : "",
 									"text" : "qmetro 100 @active 1"
 								}
 
@@ -688,6 +709,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 125.0, 76.5, 40.0, 22.0 ],
+									"style" : "",
 									"text" : "* 100."
 								}
 
@@ -700,6 +722,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 125.0, 50.5, 66.0, 22.0 ],
+									"style" : "",
 									"text" : "random 80"
 								}
 
@@ -712,6 +735,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 9.0, 106.5, 135.0, 22.0 ],
+									"style" : "",
 									"text" : "pack i i"
 								}
 
@@ -724,6 +748,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 9.0, 50.5, 111.0, 22.0 ],
+									"style" : "",
 									"text" : "expr random(1\\, 16)"
 								}
 
@@ -736,7 +761,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 183.5, 30.0, 30.0 ]
+									"patching_rect" : [ 9.0, 183.5, 30.0, 30.0 ],
+									"style" : ""
 								}
 
 							}
@@ -884,8 +910,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -899,9 +925,11 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p data.stream.simulation"
 				}
 
@@ -916,63 +944,63 @@
 							}
 , 							{
 								"key" : 1,
-								"value" : [ 6500 ]
+								"value" : [ 1400 ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ 1300 ]
+								"value" : [ 500 ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ 5700 ]
+								"value" : [ 1600 ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ 5900 ]
+								"value" : [ 4000 ]
 							}
 , 							{
 								"key" : 5,
-								"value" : [ 4800 ]
+								"value" : [ 1100 ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ 6300 ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ 4200 ]
-							}
-, 							{
-								"key" : 8,
 								"value" : [ 4400 ]
 							}
 , 							{
-								"key" : 9,
-								"value" : [ 800 ]
+								"key" : 7,
+								"value" : [ 0 ]
 							}
 , 							{
-								"key" : 10,
+								"key" : 8,
 								"value" : [ 6700 ]
 							}
 , 							{
+								"key" : 9,
+								"value" : [ 1000 ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ 4600 ]
+							}
+, 							{
 								"key" : 11,
-								"value" : [ 6500 ]
+								"value" : [ 1600 ]
 							}
 , 							{
 								"key" : 12,
-								"value" : [ 5600 ]
+								"value" : [ 7300 ]
 							}
 , 							{
 								"key" : 13,
-								"value" : [ 6300 ]
+								"value" : [ 1400 ]
 							}
 , 							{
 								"key" : 14,
-								"value" : [ 6400 ]
+								"value" : [ 7300 ]
 							}
 , 							{
 								"key" : 15,
-								"value" : [ 4500 ]
+								"value" : [ 1700 ]
 							}
  ]
 					}
@@ -988,6 +1016,7 @@
 						"embed" : 1
 					}
 ,
+					"style" : "",
 					"text" : "coll data.inside.all.poly.voices"
 				}
 
@@ -1001,6 +1030,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 495.0, 249.0, 279.0, 33.0 ],
+					"style" : "",
 					"text" : "A way to look inside any voice of the poly~. \nThis method opens up a window for each instance.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1015,6 +1045,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.0, 472.0, 51.0, 22.0 ],
+					"style" : "",
 					"text" : "r to.poly"
 				}
 
@@ -1027,6 +1058,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 297.0, 254.5, 53.0, 22.0 ],
+					"style" : "",
 					"text" : "s to.poly"
 				}
 
@@ -1039,7 +1071,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 441.0, 244.5, 50.0, 22.0 ]
+					"patching_rect" : [ 441.0, 244.5, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1051,6 +1084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 441.0, 273.5, 52.0, 22.0 ],
+					"style" : "",
 					"text" : "open $1"
 				}
 
@@ -1063,6 +1097,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 190.5, 101.0, 22.0 ],
+					"style" : "",
 					"text" : "prepend midinote"
 				}
 
@@ -1076,6 +1111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.0, 190.5, 287.0, 47.0 ],
+					"style" : "",
 					"text" : "A way to distribute incoming event data to individual voices of the poly~ that are currently free and producing no signal. ",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1087,7 +1123,8 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 432.5, 525.999999999999886, 45.0, 45.0 ]
+					"patching_rect" : [ 432.5, 526.0, 45.0, 45.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1100,6 +1137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 87.0, 738.0, 47.0 ],
+					"style" : "",
 					"text" : "In general though, a poly~ is designed to make multiple copies of the same thing, permitting simultaneous instances of the same DSP (digital signal processing) algorithms. As such, a well-designed poly~, no matter what kind of signal it's producing, should have a few of the same elements:",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1114,6 +1152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 35.0, 739.0, 47.0 ],
+					"style" : "",
 					"text" : "We can use poly~ to create all sorts of fun polyphonic instruments in Max. We'll be making a few instruments in this class using poly~. \nWe can even use poly~ to create things that are not so instrument-like — For example, some people use poly~ just to turn signals on and off in their patch. Some use a poly~ to compute the spatial movement of 3D sound objects. Some design elaborate reverbs with a poly~.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1128,6 +1167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 60.0, 175.5, 202.0, 33.0 ],
+					"style" : "",
 					"text" : "A \"panic\" method\" in case all voices need to be suddenly turned off.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1140,8 +1180,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 34.5, 180.0, 24.0, 24.0 ]
+					"patching_rect" : [ 34.5, 180.0, 24.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1153,6 +1193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.5, 212.5, 60.0, 22.0 ],
+					"style" : "",
 					"text" : "s mute.all"
 				}
 
@@ -1164,7 +1205,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.333333333333314, 619.824607329842934, 59.0, 20.0 ],
+					"patching_rect" : [ 109.333336, 619.824585, 59.0, 20.0 ],
+					"style" : "",
 					"text" : "mutemap",
 					"textcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
@@ -1177,7 +1219,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.666666666666629, 619.824607329842934, 57.0, 20.0 ],
+					"patching_rect" : [ 176.666672, 619.824585, 57.0, 20.0 ],
+					"style" : "",
 					"text" : "busymap",
 					"textcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
@@ -1191,8 +1234,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.333333333333314, 550.824607329842934, 50.0, 62.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+					"patching_rect" : [ 109.333336, 550.824585, 50.0, 62.0 ],
+					"style" : "",
+					"text" : "0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1",
 					"textcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 
@@ -1206,6 +1250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 148.0, 306.0, 33.0 ],
+					"style" : "",
 					"text" : "A way to monitor the mute and busy states; \nto know which voices are free and which are occupied.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1222,14 +1267,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64",
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 153.0, 145.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1265,7 +1309,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 104.0, 30.0, 30.0 ]
+									"patching_rect" : [ 7.0, 104.0, 30.0, 30.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1277,6 +1322,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 83.0, 60.0, 67.0, 22.0 ],
+									"style" : "",
 									"text" : "busymap 2"
 								}
 
@@ -1289,6 +1335,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 7.0, 60.0, 69.0, 22.0 ],
+									"style" : "",
 									"text" : "mutemap 1"
 								}
 
@@ -1301,6 +1348,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 7.0, 16.0, 126.0, 22.0 ],
+									"style" : "",
 									"text" : "qmetro 200 @active 1"
 								}
 
@@ -1344,9 +1392,11 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p mute.busy"
 				}
 
@@ -1359,6 +1409,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 325.0, 190.5, 79.0, 22.0 ],
+					"style" : "",
 					"text" : "prepend note"
 				}
 
@@ -1370,9 +1421,10 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "", "", "" ],
-					"patching_rect" : [ 73.0, 500.678414096916299, 221.0, 29.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
+					"patching_rect" : [ 73.0, 500.678406, 221.0, 29.0 ],
+					"style" : "",
 					"text" : "poly~ scaffold.polyCore 16"
 				}
 
@@ -1385,7 +1437,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 500.678414096916299, 96.0, 33.0 ],
+					"patching_rect" : [ 296.0, 500.678406, 96.0, 33.0 ],
+					"style" : "",
 					"text" : "<= Double-click to see contents.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1400,6 +1453,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 4.0, 322.0, 29.0 ],
+					"style" : "",
 					"text" : "7. A Boiler For poly~ Instruments"
 				}
 
@@ -1538,41 +1592,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-116" : [ "release", "release", 0 ],
-			"obj-119" : [ "sustain", "sustain", 0 ],
-			"obj-115" : [ "attack", "attack", 0 ],
-			"obj-114" : [ "duration", "duration", 0 ],
 			"obj-117" : [ "decay", "decay", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
+			"obj-114" : [ "duration", "duration", 0 ],
+			"obj-115" : [ "attack", "attack", 0 ],
+			"obj-116" : [ "release", "release", 0 ],
+			"obj-119" : [ "sustain", "sustain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"bootpath" : "~/Documents/Temporary Work/ENT3320-Loius-Goldford-/tutorials/tutorial.01a.bach.poly~",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"bootpath" : "~/Documents/Temporary Work/ENT3320-Loius-Goldford-/tutorials/tutorial.01a.bach.poly~",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"bootpath" : "~/Documents/Temporary Work/ENT3320-Loius-Goldford-/tutorials/tutorial.01a.bach.poly~",
 				"patcherrelativepath" : ".",
-				"type" : "PNG",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scaffold.polyCore.maxpat",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"bootpath" : "~/Documents/Temporary Work/ENT3320-Loius-Goldford-/tutorials/tutorial.01a.bach.poly~",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1654,8 +1704,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
