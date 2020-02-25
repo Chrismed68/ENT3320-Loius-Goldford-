@@ -2,14 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x64",
+			"major" : 7,
+			"minor" : 3,
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"classnamespace" : "box",
 		"rect" : [ 207.0, 79.0, 986.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -46,6 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.0, 382.0, 23.0, 18.0 ],
+					"style" : "",
 					"text" : "$1",
 					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
 				}
@@ -60,6 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 747.5, 382.0, 23.0, 18.0 ],
+					"style" : "",
 					"text" : "$2",
 					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
 				}
@@ -74,6 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 712.0, 382.0, 23.0, 18.0 ],
+					"style" : "",
 					"text" : "$3",
 					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
 				}
@@ -129,6 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 385.0, 136.0, 20.0 ],
+					"style" : "",
 					"text" : "Watch the Max console:",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -162,6 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 712.0, 429.0, 241.0, 33.0 ],
+					"style" : "",
 					"text" : "Remember: you can always find the syntax you need by browsing the RTcmix website:",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -176,6 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 712.0, 465.125, 256.0, 35.0 ],
+					"style" : "",
 					"text" : ";\rmax launchbrowser http://rtcmix.org/reference/"
 				}
 
@@ -188,6 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 584.0, 398.5, 352.0, 20.0 ],
+					"style" : "",
 					"text" : "source: http://rtcmix.org/reference/instruments/WAVETABLE.php",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -202,6 +208,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 584.0, 368.0, 376.0, 18.0 ],
+					"style" : "",
 					"text" : "WAVETABLE(outsk, dur, AMP, PITCH[, PAN, WAVETABLE])",
 					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ]
 				}
@@ -216,6 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 729.0, 318.0, 143.0, 33.0 ],
+					"style" : "",
 					"text" : "Recall the syntax for the WAVETABLE instrument:",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -228,6 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 303.0, 384.0, 80.0, 22.0 ],
+					"style" : "",
 					"text" : "print dynamic"
 				}
 
@@ -241,6 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 18.0, 765.0, 29.0 ],
+					"style" : "",
 					"text" : "10. Monophonic Playback Using Bach.roll and Dynamic WAVETABLE Messages"
 				}
 
@@ -254,6 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 445.0, 429.0, 251.0, 33.0 ],
+					"style" : "",
 					"text" : "<= RTcmix~ with no hard-coded script inside! (double-click to see NOTHINGNESS...)",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -268,6 +279,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 210.0, 301.0, 87.0 ],
+					"style" : "",
 					"text" : "Every time audio is turned on or off, the RTcmix queue and data get reinitialized. This means that you need to resend any RTcmix data (such as wavetable information, amplitude envelopes, etc.) if they are not contained in the message or score being sent. The [delay] is to ensure that the RTcmix queue is working.",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -282,6 +294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.0, 371.5, 167.0, 47.0 ],
+					"style" : "",
 					"text" : "the max/msp message \"rtcmix\" can be used to send script information to rtcmix~",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -295,6 +308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.0, 293.0, 101.0, 20.0 ],
+					"style" : "",
 					"text" : "to frequency (Hz)",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -308,6 +322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.0, 293.0, 114.0, 20.0 ],
+					"style" : "",
 					"text" : "to 16-bit wordlength",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -321,6 +336,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 671.0, 293.0, 67.0, 20.0 ],
+					"style" : "",
 					"text" : "to seconds",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -334,6 +350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 559.0, 248.0, 47.0, 20.0 ],
+					"style" : "",
 					"text" : "volume",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -347,6 +364,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.0, 234.0, 63.0, 20.0 ],
+					"style" : "",
 					"text" : "<velocity>",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -360,6 +378,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 671.0, 234.0, 93.0, 20.0 ],
+					"style" : "",
 					"text" : "<duration> (ms)",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -373,6 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.0, 248.0, 34.0, 20.0 ],
+					"style" : "",
 					"text" : "pitch",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -386,6 +406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.0, 234.0, 73.0, 20.0 ],
+					"style" : "",
 					"text" : "<midicents>",
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -400,6 +421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 21.0, 306.0, 217.0, 49.0 ],
+					"style" : "",
 					"text" : "rtcmix makegen 1 24 1000 0 0 1 1 2 0, rtcmix makegen 2 10 1000 1 0.1 0., rtcmix reset 2000"
 				}
 
@@ -412,6 +434,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 656.0, 269.0, 47.0, 22.0 ],
+					"style" : "",
 					"text" : "* 0.001"
 				}
 
@@ -423,8 +446,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 21.0, 206.0, 24.0, 24.0 ]
+					"patching_rect" : [ 21.0, 206.0, 24.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
@@ -436,6 +459,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 526.0, 269.0, 117.0, 22.0 ],
+					"style" : "",
 					"text" : "scale 0 127 0 32768"
 				}
 
@@ -446,28 +470,30 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 534.0, 48.25, 48.25 ]
+					"patching_rect" : [ 396.0, 534.0, 48.25, 48.25 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 396.0, 481.0, 136.0, 47.0 ],
+					"patching_rect" : [ 396.0, 481.0, 136.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 0.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_unitstyle" : 4
 						}
 
@@ -488,7 +514,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 396.0, 429.0, 47.0, 22.0 ],
-					"save" : [ "#N", "rtcmix~", 1, 0, ";" ],
+					"save" : [ "#N", "rtcmix~", 1, 0, ";", "#X", "restore", 0, 363, 363, "\r\nkeon = maketable(\"wave\", 3000, \"buzz\")\r\n\r\nampenv = maketable(\"line\", 2000, 0,0, 1.5,3.2, 6.3,1)\r\n\r\nWAVETABLE(0, 3.3, 47000*ampenv, 5.01, 0.75, keon/9.5)\r\n\r\nWAVETABLE(0, 4.3, 24000*ampenv, 36+irand(0.1, 3), 0.55, keon/0.5)\r\n\r\nWAVETABLE(0, 3.6, 20000*ampenv, 20+irand(0.1, 2), 0.55, keon/3.5)\r\n\r\nWAVETABLE(0, 3.1, 37000*ampenv, 60+irand(0.1, 3.4), 0.55, keon/2.5)", ";" ],
+					"style" : "",
 					"text" : "rtcmix~"
 				}
 
@@ -501,6 +528,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 396.0, 269.0, 103.0, 22.0 ],
+					"style" : "",
 					"text" : "bach.mc2f @out t"
 				}
 
@@ -513,6 +541,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 396.0, 344.0, 175.0, 22.0 ],
+					"style" : "",
 					"text" : "rtcmix WAVETABLE 0 $3 $2 $1"
 				}
 
@@ -527,6 +556,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 21.0, 282.0, 44.0, 21.0 ],
+					"style" : "",
 					"text" : "delay 1"
 				}
 
@@ -541,6 +571,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "float", "int", "int" ],
 					"patching_rect" : [ 21.0, 233.0, 57.0, 21.0 ],
+					"style" : "",
 					"text" : "dspstate~"
 				}
 
@@ -555,6 +586,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 21.0, 258.0, 32.0, 21.0 ],
+					"style" : "",
 					"text" : "sel 1"
 				}
 
@@ -567,6 +599,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 396.0, 318.0, 279.0, 22.0 ],
+					"style" : "",
 					"text" : "pack f i f"
 				}
 
@@ -583,6 +616,7 @@
 						"versionnumber" : 80100
 					}
 ,
+					"style" : "",
 					"text" : "bach.playkeys cents velocity duration @out t"
 				}
 
@@ -597,14 +631,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 16.0, 58.0, 42.0, 119.166666666666686 ],
+					"patching_rect" : [ 16.0, 58.0, 42.0, 119.166664 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 5,
 							"parameter_shortname" : "live.tab",
-							"parameter_enum" : [ "read", "writetxt", "dump", "play", "stop", "clear" ],
 							"parameter_type" : 2,
+							"parameter_mmax" : 5.0,
+							"parameter_enum" : [ "read", "writetxt", "dump", "play", "stop", "clear" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -632,7 +666,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 62.0, 58.0, 896.0, 119.166666666666671 ],
+					"patching_rect" : [ 62.0, 58.0, 896.0, 119.166664 ],
 					"pitcheditrange" : [ "null" ],
 					"ruler" : 3,
 					"showplayhead" : 1,
@@ -652,7 +686,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 823.214285714285666, 201.0, 405.5, 201.0 ],
+					"midpoints" : [ 823.214294, 201.0, 405.5, 201.0 ],
 					"source" : [ "obj-1", 6 ]
 				}
 
@@ -799,40 +833,36 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-49" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-47" : [ "live.tab", "live.tab", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
+			"obj-49" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bach.mc2f.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.02.basic.rtcmix",
+				"bootpath" : "~/Desktop/ENT3320-Loius-Goldford-/tutorial.02a.basic.rtcmix",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.02.basic.rtcmix",
+				"bootpath" : "~/Desktop/ENT3320-Loius-Goldford-/tutorial.02a.basic.rtcmix",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.02.basic.rtcmix",
+				"bootpath" : "~/Desktop/ENT3320-Loius-Goldford-/tutorial.02a.basic.rtcmix",
 				"patcherrelativepath" : ".",
-				"type" : "PNG",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
@@ -936,8 +966,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

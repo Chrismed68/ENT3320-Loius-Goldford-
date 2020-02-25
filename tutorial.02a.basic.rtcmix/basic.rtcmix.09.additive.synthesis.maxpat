@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 578.0, 100.0, 728.0, 391.0 ],
+		"rect" : [ 57.0, 79.0, 614.0, 391.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,91 +38,12 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 159.071426, 37.0, 35.0 ],
-					"style" : "",
-					"text" : "var 1 827"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 107.571426, 85.0, 22.0 ],
-					"style" : "",
-					"text" : "prepend var 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 242.0, 65.071426, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 23.0, 92.0, 22.0 ],
-					"style" : "",
-					"text" : "loadmess 827"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 110.0, 53.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 90.0, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 43.5, 29.0, 24.0, 24.0 ],
+					"patching_rect" : [ 42.5, 107.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -157,50 +78,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"id" : "obj-22",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 335.5, 82.571426, 287.0, 47.0 ],
-					"style" : "",
-					"text" : "We're making a \"plucked\" note that sounds kinda like a guitar string, using the STRUM2 instrument. Its syntax can be found here:",
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"id" : "obj-21",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 335.5, 190.071426, 287.5, 60.0 ],
-					"style" : "",
-					"text" : "\"The Karplus-Strong plucked string algorithm is a subtractive synthesis system featuring a burst of white noise, a recirculating delay line, a lowpass filter, an allpass filter, and a snazzy recursion\"",
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.5, 132.071426, 287.0, 49.0 ],
-					"style" : "",
-					"text" : ";\rmax launchbrowser http://rtcmix.org/reference/instruments/STRUM2.php"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "live.gain~",
 					"numinlets" : 2,
@@ -208,8 +85,8 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 42.5, 238.0, 136.0, 41.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 41.0 ],
+					"patching_rect" : [ 42.5, 238.0, 136.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -282,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 42.5, 156.571426, 125.0, 40.0 ],
-					"save" : [ "#N", "rtcmix~", 2, 0, ";", "#X", "restore", 0, 480, 480, "// STRUM2 Instrument Syntax:\r\n// STRUM2(outsk, dur, AMP, PITCH, squish, decay_time[, PAN])\n// source: http://rtcmix.org/reference/instruments/STRUM2.php\r\n\r\nstarttime = 0\r\nlowedge = $1 //<var 1> in parent patch\r\n\r\nfor( i= 0 ; i < 10 ; i = i + 1)\r\n{\r\nrate  = irand(0.78, 0.98)\r\n\r\nvar2 = irand(lowedge, 934) // random number within range given by user (this case 126-934 Hz)\r\n\r\nSTRUM2(starttime, 3.5, 20000, var2, 2, 3.5, random())\r\nstarttime = starttime + rate\r\n}\nMAXBANG(starttime)", ";" ],
+					"save" : [ "#N", "rtcmix~", 2, 0, ";", "#X", "restore", 0, 963, 963, "// WAVETABLE Instrument Syntax:\r\n// WAVETABLE(outsk, dur, AMP, PITCH[, PAN, WAVETABLE])\n// source: http://rtcmix.org/reference/instruments/STRUM2.php\r\n//outsk is like a delay wrt t=0 (bang)\r\n\r\n\r\n\r\n\r\nkeon = maketable(\"wave\", 3000, \"buzz\")\r\n\r\nampenv = maketable(\"line\", 2000, 0,0, 1.5,3.2, 6.3,1)\r\n\r\nWAVETABLE(0, 3.3, 47000*ampenv, 5.01, 0.75, keon/9.5)\r\n\r\nWAVETABLE(0, 4.3, 24000*ampenv, 36+irand(0.1, 3), 0.55, keon/0.5)\r\n\r\nWAVETABLE(0, 3.6, 20000*ampenv, 20+irand(0.1, 2), 0.55, keon/3.5)\r\n\r\nWAVETABLE(0, 3.1, 37000*ampenv, 60+irand(0.1, 0.4), 0.55, keon/2.5)\r\n\r\n\r\n//oct.pc \r\n\r\n//We did not include the optional \"wavetable\" pfield,\r\n//but we DID include the Pan pfield; a value of 0.5.\r\n//Tis means we split equally between L/R channels.\r\n\r\n//Also notice that our pitch syntax is not in hertz.\r\n//we are now using oct.pc (octave - pitch-class).\r\n//So, 8.02 means 8th octave (middle C) + plus 2 half-steps.\r\n//In oter words, we've defined the D in the 8th octave.", ";" ],
 					"style" : "",
 					"text" : "rtcmix~ 2"
 				}
@@ -305,14 +182,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 158.0, 198.0, 117.0, 198.0, 117.0, 207.0, 211.0, 207.0, 211.0, 87.0, 219.0, 87.0, 219.0, 28.0, 96.0, 28.0, 96.0, 48.0, 119.5, 48.0 ],
-					"source" : [ "obj-1", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-10", 1 ]
 				}
@@ -328,51 +197,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 1 ],
-					"order" : 0,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
